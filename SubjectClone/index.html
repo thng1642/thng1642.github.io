@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>HTML</title>
+</head>
+<body>
+    <div class="header-nav">
+        <img src="/images/logo_team_1.png" alt="Mat tieu" class="logo-header">
+
+        <ul class="links-container">
+
+            <li class="lis" onclick="openListCourses()"><a href = 'javascript:void(0)' id="my-subjects" >subjects
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <nav id="nav-subjects">
+
+                    <i class="fas fa-times"></i>
+
+                    <ul>
+                        <li id='list-course'>
+                            <a href="#" class="link-course">Ky thuat lap trinh</a>
+                        </li>
+
+                        <li id='list-course'>
+                            <a href="#" class="link-course">HTML Tutorial</a>
+                        </li>
+
+                        <li id='list-course'>
+                            <a href="#" class="link-course">Nhap mon lap trinh</a>
+                        </li>
+
+                        <li id='list-course'>
+                            <a href="#" class="link-course">Toan roi rac va Ly thuyet do thi</a>
+                        </li>
+                    </ul>
+                </nav>
+            </li>
+
+            <li class="lis"><a id="references">references
+                <i class="fas fa-caret-down"></i>
+            </a></li>
+
+            <li class="lis"><a id="exercises">exercises
+                <i class="fas fa-caret-down"></i>
+            </a></li>
+        </ul>
+    </div>
+
+    <div class="title-bar" id="title-bar">
+        <i class="fas fa-bars" id="fa-bars"></i>
+        <i class="fas fa-home" id="fa-home"></i>
+        <span class="index">HTML</span>
+    </div>
+
+    <div class="left-container-chapter">
+
+        <div class="left-content-chapter">
+            <!--Chapter 1-->
+            <h2 class="left">HTML Tutorial</h2>
+            <a href="">HTML Home</a>
+            <a href="">HTML Introduction</a>
+            <a href="">HTML Basic</a>
+            <a href="">HTML Elements</a>
+            <a href="">HTML Attributes</a>
+            <a href="">HTML Headings</a>
+            <a href="">HTML Paragraphs</a>
+            <a href="">HTML Styles</a>
+            <a href="">HTML Formatting</a>
+            <a href="">HTML Comments</a>
+            <a href="">HTML Colors</a>
+            <a href="">HTML CSS</a>
+            <a href="">HTML Link</a>
+            <a href="">HTML Images</a>
+            <a href="">HTML Tables</a>
+            <a href="">HTML Lists</a>
+            <a href="">HTML Classes</a>
+
+            <!--Chapter 2: HTML Form-->
+            <h2 class="left">HTML Forms</h2>
+            <a href="">HTML Forms</a>
+            <a href="">HTML Form Attributes</a>
+            <a href="">HTML Form Elements</a>
+            <a href="">HTML Input Types</a>
+            <a href="">HTML Input Attributes</a>
+            <a href="">HTML Input Form Attributes</a>
+
+            <div class="container-forum" id="container-forum">
+                <i class="fas fa-users"></i>
+                <a href="../ForumPage/forum.html" class="forum" target="_blank">Forum</a>
+                
+            </div>
+
+            <div class="container-profile">
+                <a href="../HomeClone/index.html" class="profile" target="_self">
+                    <i class="far fa-address-card">
+                        <span>profile</span>
+                    </i>
+                </a>
+            </div>
+
+            <div class="container-out">
+                <a href="../signIn.html" target="_self" class="out">
+                    <i class="fas fa-sign-out-alt">
+                        <span style="font-weight: 500">sign out</span>
+                    </i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main-content">
+
+        <div class="subject-content">
+
+            <div id="chapter_home" class="chapters">
+
+                <div class="right_tool">
+                    <i class="fas fa-pen" id='note_btn'>
+                        <span id="tooltip_pen" style="color: aliceblue;">Note</span>
+
+                        <textarea id="one_note_chapter_home" cols="50" rows="10" placeholder="Ghi chú của bạn về chương này">
+                        </textarea>
+                    </i>
+                    
+                    <i class="fas fa-star" id="marked_btn"></i>
+                </div>
+
+                <h2 id="home">HTML Home</h2>
+                <p>HTML is the standard markup language for Web pages.</p>
+                <p>With HTML you can create your own Website.</p>
+                <p>HTML is easy to learn - You will enjoy it!</p>                      
+
+                <h2 id="intro">HTML Introduction</h2>
+                <p>HTML is the standard markup language for creating Web pages.</p>
+                <h3>What is HTML?</h3>
+                <ul>
+                    <li>HTML stands for Hyper Text Markup Language</li>
+                    <li>HTML is the standard markup language for creating Web Pages</li>
+                    <li>HTML describe the structure of a Web page</li>
+                    <li>HTML consists of a series of the elements</li>
+                    <li>HTML elements tell the browser how to display the content</li>
+                    <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this a link", etc.</li>
+                </ul>
+            </div>
+
+            <div class="chapters" id="chapter_1">
+                
+                <div class="right_tool">
+                    <i class="fas fa-pen" id='note_btn'>
+                        <span id="tooltip_pen" style="color: aliceblue;">Note</span>
+
+                        <textarea id="one_note_chapter_home" cols="50" rows="10" placeholder="Ghi chú của bạn về chương này">
+                        </textarea>
+                    </i>
+                    
+                    <i class="fas fa-star" id="marked_btn"></i>
+                </div>
+                    <h2 id="editors">HTML Editors</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis dolor quibusdam ex blanditiis animi maiores sapiente, expedita ipsam doloremque alias facilis id optio quasi adipisci mollitia sed necessitatibus facere.</p>
+
+                <h2 id="basic">HTML Basic</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque. Maxime eaque tempore earum atque ea. Harum, earum? Laborum id ut obcaecati assumenda, dolore hic. Repudiandae voluptatibus excepturi molestiae itaque?</p>
+                <h2 id="basic">HTML Basic</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque. Maxime eaque tempore earum atque ea. Harum, earum? Laborum id ut obcaecati assumenda, dolore hic. Repudiandae voluptatibus excepturi molestiae itaque?</p>
+                <h2 id="basic">HTML Basic</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque. Maxime eaque tempore earum atque ea. Harum, earum? Laborum id ut obcaecati assumenda, dolore hic. Repudiandae voluptatibus excepturi molestiae itaque?</p>
+                <h2 id="basic">HTML Basic</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque. Maxime eaque tempore earum atque ea. Harum, earum? Laborum id ut obcaecati assumenda, dolore hic. Repudiandae voluptatibus excepturi molestiae itaque?</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./app.js" defer></script>
+    <script async>
+        function openListCourses() {
+        let contentCourse = document.getElementById('nav-subjects');
+
+        if (contentCourse.style.display != 'none') {
+            contentCourse.style.display = 'none';
+        }
+        else {
+            contentCourse.style.display = 'inline-block';
+        }
+    }
+    </script>
+</body>
+</html>
